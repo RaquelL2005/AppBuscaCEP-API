@@ -8,19 +8,19 @@
     android:padding="50dp"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/baseline_arrow_back"
 
-  <com.google.android.material.appbar.MaterialToolbar
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      app:navigationIcon="@drawable/baseline_arrow_back"
+        />
 
-      />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="50dp">
+        android:padding="2dp">
 
     <EditText
         android:id="@+id/txtCep"
@@ -62,7 +62,7 @@
             android:id="@+id/lblCEP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:padding="5dp"
             android:text="Endereço: "
             android:textColor="#858383"
@@ -85,7 +85,7 @@
             android:textSize="19sp"
             android:textColor="#858383"
             android:background="@drawable/dialog_background"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:padding="5dp"
             />
 
@@ -104,10 +104,10 @@
             android:layout_height="wrap_content"
             android:text="Complemento: "
             android:id="@+id/lblComplemento"
-            android:textSize="19sp"
+            android:textSize="20sp"
             android:textColor="#858383"
             android:background="@drawable/dialog_background"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:padding="5dp"
             />
 
@@ -127,7 +127,7 @@
             android:text="Bairro: "
             android:id="@+id/lblBairro"
             android:background="@drawable/dialog_background"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:padding="5dp"
             android:textSize="19sp"
             android:textColor="#858383"
@@ -148,7 +148,7 @@
             android:layout_height="wrap_content"
             android:text="Cidade"
             android:background="@drawable/dialog_background"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:padding="5dp"
             android:textSize="19sp"
             android:textColor="#858383"
@@ -161,6 +161,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:orientation="horizontal">
+
  <EditText
         android:text="Estado:"
         android:id="@+id/lblEstado"
@@ -177,11 +178,6 @@
             android:background="@drawable/dialog_background"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:textColor="#858383"
-            android:textSize="19sp"
-            android:padding="5dp"
-
             />
 
 

@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnBuscarCep;
     EditText txtCep, lblCEP, lblLogradouro, lblComplemento, lblBairro, lblCidade, lblEstado;
 
-    Spinner spinner;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         lblCidade = findViewById(R.id.lblCidade);
         lblEstado = findViewById(R.id.lblEstado);
         btnBuscarCep = findViewById(R.id.btnBuscaCep);
-        spinner = findViewById(R.id.spinnerEstado);
+       Spinner spinner = (Spinner) findViewById(R.id.spinnerEstado);
 
         String [] estado = getResources().getStringArray(R.array.estados_array);
 
