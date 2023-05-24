@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         lblComplemento = findViewById(R.id.lblComplemento);
         lblBairro = findViewById(R.id.lblBairro);
         lblCidade = findViewById(R.id.lblCidade);
-        lblEstado = findViewById(R.id.lblEstado);
         btnBuscarCep = findViewById(R.id.btnBuscaCep);
        Spinner spinner = (Spinner) findViewById(R.id.spinnerEstado);
 
@@ -52,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     lblComplemento.setText(retorno.getComplemento().toString());
                     lblBairro.setText(retorno.getBairro().toString());
                     lblCidade.setText(retorno.getLocalidade().toString());
-                    lblEstado.setText(retorno.getUf().toString());
+
 
 
                 } catch (ExecutionException e) {

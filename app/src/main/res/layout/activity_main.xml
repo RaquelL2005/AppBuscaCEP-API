@@ -162,22 +162,16 @@
         android:layout_margin="5dp"
         android:orientation="horizontal">
 
- <EditText
-        android:text="Estado:"
-        android:id="@+id/lblEstado"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-     android:background="@drawable/dialog_background"
-        android:textColor="#6C6969"
-        android:textSize="20sp" />
-
 
         <Spinner
             android:id="@+id/spinnerEstado"
             android:background="@drawable/dialog_background"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="#858383"
+
             />
 
 
